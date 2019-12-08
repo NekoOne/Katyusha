@@ -47,4 +47,4 @@ const activities_list = [
 
 client.on('error', console.error);
 
-client.login('NjM2Mjk2NzExOTM3MTk2MDU3.XbjnyQ.D-g6CvDyJAgkpiNURGSP8S3fktU');
+client.login('you thought I would really put my token here?');

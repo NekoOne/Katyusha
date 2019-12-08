@@ -8,6 +8,7 @@ module.exports = class BlacklistUserCommand extends Command {
 			group: 'default',
 			memberName: 'blacklist-user',
 			description: 'Prohibit a user from using commando',
+			hidden: true,
 			throttling: {
 				usages: 2,
 				duration: 3

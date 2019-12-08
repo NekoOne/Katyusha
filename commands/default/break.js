@@ -9,7 +9,8 @@ module.exports = class newCommand extends Command {
 			memberName: 'break',
 			description: 'Bruh',
             guildOnly: false,
-            ownerOnly: true,
+			ownerOnly: true,
+			hidden: true,
 			
 		});
 	}

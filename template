@@ -1,0 +1,25 @@
+const { Command } = require('discord.js-commando');
+const { RichEmbed } = require('discord.js');
+
+module.exports = class mapCommand extends Command {
+    constructor(client) {
+        super(client, {
+            name: '', //put command name here
+            aliases: [''], //aliases is the 2nd commad name you can use to trigger it 
+            group: '', //dont worry about this
+            memberName: '', //or this
+            description: '',
+            
+            guildOnly: true
+        });
+    }
+
+    run(message) {
+		const embed = new RichEmbed()
+		.setColor('#013220') //see that color bar? this is it
+	.setTitle('Alpenstadt') //sets embed title
+    .setImage('https://i.imgur.com/bhVDsuE.png') //huge image of embed, do .setThumbnail for small one
+    
+        return message.embed(embed);
+    }
+};

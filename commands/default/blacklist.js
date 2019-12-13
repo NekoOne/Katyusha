@@ -13,7 +13,8 @@ module.exports = class BlacklistUserCommand extends Command {
 				usages: 2,
 				duration: 3
             },
-            ownerOnly: true,
+			ownerOnly: true,
+			hidden: true,
 
 			args: [
 				{

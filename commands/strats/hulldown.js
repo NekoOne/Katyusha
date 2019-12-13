@@ -17,7 +17,7 @@ module.exports = class hulldownCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('#ff0000')
+		.setColor('RANDOM')
 	.setTitle('Hull-Down')
 	.setDescription('To Hide the Hull of Your Tank Only Exposing The Turret')
 	.setThumbnail('http://wotblitz.asia/dcont/1.2.0.1/fb/image/tmb/t34_320x.jpg')

@@ -10,7 +10,8 @@ module.exports = class patreonCommand extends Command {
 			memberName: 'patreon',
 			description: 'Want to Help Keep the Bot up and Running?',
             guildOnly: false,
-            ownerOnly: true
+			ownerOnly: true,
+			hidden: true
 			
 		});
 	}

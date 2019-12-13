@@ -12,13 +12,14 @@ module.exports = class SayCommand extends Command {
 			group: 'default',
 			memberName: 'guild',
 			description: 'Lists properties of the current guild.',
-			examples: ['guild']
+			examples: ['guild'],
+			guildOnly: true
 		});
 	}
 	async run(msg) {
 		if (!msg.guild) return msg.reply('This is not a guild!');
 		let embed = new RichEmbed()
-			.setAuthor('MangoBot')
+			.setAuthor('Katyusha')
 			.setDescription('Server info:', msg.guild.iconURL)
 			.setColor("ffa735")
 			.addField("Server name:", `${msg.guild.name}`)

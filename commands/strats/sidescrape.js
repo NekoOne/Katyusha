@@ -17,7 +17,7 @@ module.exports = class sidescrapeCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('#ff0000')
+		.setColor('RANDOM')
 	.setTitle('Side-Srape')
 	.setDescription('To Hide Behind an Imortal Object and Back up, Only Exposing the Side of your tank.')
 	.setThumbnail('http://worldoftanks.com/dcont/fb/image/is-6.jpg')

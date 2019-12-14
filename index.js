@@ -21,7 +21,7 @@ client.registry
 		['badge', 'Shows a Mentioned badge'],
 		['avatar', 'Shows the Mentioned Avatar'],
 		['gup', 'Are These GuP Commands :eyes:'],
-		['collecter', 'Hard to Obtain Tanks']
+		['collecter', 'Hard to Obtain Tanks(Armor will ***NOT*** be displayed until tier 4)']
 	])
 	.registerDefaultGroups()
 	.registerDefaultCommands()

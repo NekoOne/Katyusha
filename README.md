@@ -6,6 +6,6 @@
 **Info**
 
  •Katyusha is fairly new, and will have things like bugs, errors, misspellings, and much more.
-    If you encounter a problem, do not be alarmed, just click <a href=“https://discord.gg/44d5THq”>here</a> to go to our support server!
+    If you encounter a problem, do not be alarmed, just click <a href=“https://discord.gg/44d5THq/”>here</a> to go to our support server!
 
   •If you want to help create non-existant commands, you can by looking at our <a href=“https://github.com/NekoOne/katyusha”>wiki!</a>

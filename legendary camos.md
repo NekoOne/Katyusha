@@ -92,7 +92,7 @@
 
 **__Tier 5__**
 ---
-~KV-1 Warrior~
+- ~KV-1 Warrior~
 - ~Shinobi [Chi-Nu Kai]~
 
 **__Tier 3__**

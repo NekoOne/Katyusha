@@ -4,7 +4,7 @@
 ## This is Rare
  - ### #0089ca
 
-## This is Rare
+## This is Epic
  - ### #551A8B
 
 ## This is Legendary

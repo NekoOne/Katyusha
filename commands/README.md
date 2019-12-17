@@ -104,25 +104,24 @@ module.exports = class camoCommand extends Command {
 const { Command } = require('discord.js-commando');
 const { RichEmbed } = require('discord.js');
 
-module.exports = class mapCommand extends Command {
+module.exports = class tankCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'vic',
-            aliases: [],
+            name: '', //Main Command Trigger Word
+            aliases: [''], //Add the 2nd Command Trigger here; if you don't know one, remove the `''`
             group: 'collecter',
-            memberName: 'vic',
-            description: 'Brithish Tier II Light',
+            memberName: '', //Add a Short, Simple, Name
+            description: '', //Add the Nation, Tier in Roman Numerals, and what Type of Tanks it is Here
             
-            ownerOnly: false,
             guildOnly: true
         });
     }
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('#104e9d')
-    .setTitle('UC 2-pdr')
-    .setAuthor('Added in 5.5')
+		.setColor('#104e9d') //The Defualt Color is the Collector's Blue, Use Legendary from the Rarity Page to Use Premium
+    .setTitle('') //The Tank Name!
+    .setAuthor('') //Add the Update it was Added or Changed to Collector/Premium
     .setURL('') //This Tank from https://blitzhangar.com/en
     .addField('**__Weight (t)__**',	'', ) //All of these Already Tell you
     .addField('**__Hit Points__**',	'', ) 
@@ -132,7 +131,7 @@ module.exports = class mapCommand extends Command {
     .addField('**__Standard Shell Damage__**',	'', )
     .addField('**__Rate of Fire__** (rounds/min)',	'', )
     .addField('**__Armor Thickness__** `Front, Side, Rear`', '')
-    .addField('**__Turret THickness__** `Front, Side, Rear`', '')
+    .addField('**__Turret Thickness__** `Front, Side, Rear`', '')
     
     .addBlankField()
     .addField('**History**', '') //Tank History From Blitz Garage
@@ -143,3 +142,6 @@ module.exports = class mapCommand extends Command {
     }
 };
 ```
+---
+
+> All of This Info I Made Myself, I had No Help Whatsoever in the Coding of These Files. If a Photo that Belongs to you is Used and You Wish to have it not Used; Please Comment on the File, or Message Me on Discord, Either via the Support Server, or Direct Message me with Neko One#2002. I use the Photo's that Google has, Nothing will or has be Modified.

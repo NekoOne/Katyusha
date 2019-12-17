@@ -32,7 +32,7 @@ B-C 25t Musketeer,
 ~Foch (155) Destroyer~,
 ~Progetto 65 Gladiator~,
 
-**__Tier 9__*
+**__Tier 9__**
 
 Kpf Pz. 70 Cavalry,
 T-54 Threat,

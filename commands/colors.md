@@ -1,11 +1,11 @@
-## This is Common > Grey
+## This is Common => Grey
  - ### #D3D3D3 
 
-## This is Rare > Blue
+## This is Rare => Blue
  - ### #0089ca
 
-## This is Epic > Purple
+## This is Epic => Purple
  - ### #551A8B
 
-## This is Legendary > Gold
+## This is Legendary => Gold
  - ### #DAA520

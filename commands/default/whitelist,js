@@ -20,6 +20,8 @@ module.exports = class WhitelistUserCommand extends Command {
 					type: 'user'
 				}
 			]
+			ownerOnly: true
+			hidden: true
 		});
 	}
 

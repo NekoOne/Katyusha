@@ -1,4 +1,4 @@
-![Maintened](https://img.shields.io/maintenance/yes/2019?style=plastic) ![Website](https://img.shields.io/website?down_color=red&up_color=green&up_message=offline&url=https%3A%2F%2Fnekoone.github.io%2Fkatyusha%2F)
+![Maintened](https://img.shields.io/maintenance/yes/2019?style=plastic) ![Website](https://img.shields.io/website?down_color=red&up_color=green&up_message=offline&url=https%3A%2F%2Fnekoone.github.io%2Fkatyusha%2F) ![GitHub last commit](https://img.shields.io/github/last-commit/NekoOne/katyusha)
 # Katusha: World of Tanks Blitz Discord Bot
   
   This is the ***very first*** WoTB Discord bot that does not show user stats.

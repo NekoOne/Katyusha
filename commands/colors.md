@@ -1,4 +1,6 @@
-## This is Common => - ![#D3D3D3](https://placehold.it/15/f03c15/000000?text=+) `Grey`
+## This is Common => - Grey
+ - ### #D3D3D3
+
 ## This is Rare => Blue
  - ### #0089ca
 

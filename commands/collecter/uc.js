@@ -24,7 +24,7 @@ module.exports = class mapCommand extends Command {
     .addBlankField()
     .addField('**History**', 'The Universal Carrier was developed during the interwar period and was the main armored personnel carrier used by British Commonwealth forces. A total of 90,000 vehicles were produced from 1937 through 1945. Versions of the Universal Carriers were used for transporting personnel and equipment, as machine gun platforms, and for reconnaissance purposes. In 1940, a variant with a 40-mm anti-tank gun was developed.')
     .setThumbnail('https://www.flaginstitute.org/wp/wp-content/uploads/2012/10/UK-Union-Flag.png')
-    .setImage('https://wxpcdn.gcdn.co/dcont/tankopedia/uk/GB39_Universal_CarrierQF2.png')
+    .setImage('')
     .setFooter('Sell Price is 25 Gold')
         return message.embed(embed);
     }

@@ -32,7 +32,7 @@ module.exports = class mapCommand extends Command {
     .addBlankField()
     .addField('**History**', 'The AT-1 tank destroyer based on the T-26 light tank was developed by the construction bureau at the Experimental Design Mechanical Department of Factory No. 185 in Leningrad from 1935 through 1936. The vehicle was designed for anti-tank warfare. Two prototypes equipped with the 76.2 mm PS-3 tank guns were built, which underwent trials by 1936. This vehicle never saw mass production.')
     .setThumbnail('https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_the_Soviet_Union_%281924%E2%80%931955%29.svg/600px-Flag_of_the_Soviet_Union_%281924%E2%80%931955%29.svg.png    ')
-    .setImage('https://glossary-na-static.gcdn.co/icons/wotb/6.5.0.3/uploaded/vehicles/hd/AT-1.png')
+    .setImage('')
     .setFooter('Sell Price is 25 Gold')
         return message.embed(embed);
     }

@@ -32,7 +32,7 @@ module.exports = class mapCommand extends Command {
     .addBlankField()
     .addField('**History**', 'In May 1940 the French Army had more than 800 vehicles of this type, most of which were captured by the German forces. They were widely used by the Wehrmacht to supplement existing armor.')
     .setThumbnail('https://i.redd.it/ibeugifnq3i11.jpg')
-    .setImage('https://glossary-na-static.gcdn.co/icons/wotb/6.5.0.3/uploaded/vehicles/hd/H39_captured.png')
+    .setImage('')
     .setFooter('Sell Price is 25 Gold')
         return message.embed(embed);
     }

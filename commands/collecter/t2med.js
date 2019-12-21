@@ -32,7 +32,7 @@ module.exports = class mapCommand extends Command {
     .addBlankField()
     .addField('**History**', 'Experimental medium tank. Developed from 1930 to 1932. However, this model never saw mass production.')
     .setThumbnail('https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png')
-    .setImage('https://glossary-na-static.gcdn.co/icons/wotb/6.5.0.3/uploaded/vehicles/hd/T2_med.png')
+    .setImage('')
     .setFooter('Sell Price is 25 Gold')
         return message.embed(embed);
     }

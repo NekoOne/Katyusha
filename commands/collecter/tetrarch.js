@@ -32,7 +32,7 @@ module.exports = class mapCommand extends Command {
     .addBlankField()
     .addField('**History**', 'Developed in 1936 by the Vickers-Armstrong company, with a total of 177 vehicles in two basic modifications the Tetrarch Mk I and the Tetrarch Mk ICS manufactured from 1941 through 1942. In 1942 twenty vehicles were delivered to the U.S.S.R. under Lend-Lease, of which 19 fought on the Eastern Front until October 1943.')
     .setThumbnail('https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_the_Soviet_Union_%281924%E2%80%931955%29.svg/600px-Flag_of_the_Soviet_Union_%281924%E2%80%931955%29.svg.png    ')
-    .setImage('https://glossary-na-static.gcdn.co/icons/wotb/6.5.0.3/uploaded/vehicles/hd/Tetrarch_LL.png')
+    .setImage('')
     .setFooter('Sell Price is 700 Gold')
         return message.embed(embed);
     }

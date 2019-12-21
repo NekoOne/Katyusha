@@ -32,7 +32,7 @@ module.exports = class mapCommand extends Command {
     .addBlankField()
     .addField('**History**', 'Light wheeled caterpillar vehicle with machineguns, developed for the U.S. cavalry. The trials of the first prototype started in April 1937 and continued until 1939. However, the T7 was discontinued in favor of track-type vehicles.')
     .setThumbnail('https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png')
-    .setImage('https://glossary-na-static.gcdn.co/icons/wotb/6.5.0.3/uploaded/vehicles/hd/T7_Combat_Car.png')
+    .setImage('')
     .setFooter('Sell Price is 650 Gold')
         return message.embed(embed);
     }

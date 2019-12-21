@@ -32,7 +32,7 @@ module.exports = class mapCommand extends Command {
     .addBlankField()
     .addField('**History**', 'Development of the Panzerjäger I, the German tank destroyer, started in 1939 based on the Panzerkampfwagen I Ausf. B. Initially, the 37-mm Pak 36 gun was mounted on the chassis of the Panzerkampfwagen I Ausf. B. However, during the invasion of Poland, it was revealed that the gun was not effective against new vehicles. After Germany captured Czechoslovakia in 1940, the 47-mm Pak 36(t) L/43.4 (Škoda 47-mm A-5 KP ÚV vz. 38 Model A5) gun was mounted on the tank destroyer. A total of 202 vehicles were manufactured and saw action until 1943.')
     .setThumbnail('https://i.redd.it/ibeugifnq3i11.jpg')
-    .setImage('https://glossary-na-static.gcdn.co/icons/wotb/6.5.0.3/uploaded/vehicles/hd/PanzerJager_I.png')
+    .setImage('')
     .setFooter('Sell Price is 25 Gold')
         return message.embed(embed);
     }

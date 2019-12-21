@@ -32,7 +32,7 @@ module.exports = class mapCommand extends Command {
     .addBlankField()
     .addField('**History**', 'The vehicle prototype was designed and built by Rock Island Arsenal in 1933. The chassis and suspension elements of the Vickers Mk. E (Vickers "6-tonner") tank were used. Trials of the T2 prototype were successful, but the T2E1 variant was preferred due to its higher terrain crossing capacity.')
     .setThumbnail('https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png')
-    .setImage('https://glossary-na-static.gcdn.co/icons/wotb/6.5.0.3/uploaded/vehicles/hd/T2_lt.png')
+    .setImage('')
     .setFooter('Sell Price is 650 Gold')
         return message.embed(embed);
     }

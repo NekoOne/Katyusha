@@ -1,5 +1,5 @@
-## This is Common => Grey
- - ### #D3D3D3 
+## This is Common => - Grey
+ - ### #D3D3D3
 
 ## This is Rare => Blue
  - ### #0089ca

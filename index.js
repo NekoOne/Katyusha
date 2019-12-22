@@ -7,7 +7,7 @@ const client = new CommandoClient({
 	owner: '228565874187960320',
 	invite: 'https://discord.gg/44d5THq',
 	unknownCommandResponse: false,
-	version: '0.7',
+	version: '0.11.1-alpha',
 });
 
 client.registry
@@ -31,8 +31,7 @@ client.registry
 
 client.once('ready', () => {
 	console.log(`Logged in as ${client.user.tag}! (${client.user.id})`);
-	
-	
+
 	setInterval(() => {
         const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
         client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
@@ -44,7 +43,7 @@ const activities_list = [
 	"with Nonna",
 	"Sensha-dō",
 	"with My Code",
-	"in 2 Guilds"
+	"in ${client.guilds.size} Guilds",
     ];
 
 client.on('error', console.error);

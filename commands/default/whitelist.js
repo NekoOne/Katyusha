@@ -4,10 +4,13 @@ module.exports = class WhitelistUserCommand extends Command {
 	constructor(client) {
 		super(client, {
 			name: 'whitelist-user',
-			aliases: ['whitelist'],
+			aliases: ['whitelist', 'wl', 'unfreeze'],
 			group: 'util',
 			memberName: 'whitelist-user',
 			description: 'Remove a user from the blacklist',
+			ownerOnly: true,
+			hidden: true,
+			guildOnly: true,
 			throttling: {
 				usages: 2,
 				duration: 3
@@ -20,8 +23,7 @@ module.exports = class WhitelistUserCommand extends Command {
 					type: 'user'
 				}
 			]
-			ownerOnly: true
-			hidden: true
+			
 		});
 	}
 

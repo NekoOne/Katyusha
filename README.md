@@ -9,3 +9,4 @@
  - Katyusha is fairly new, and will have things like bugs, errors, misspellings, and much more.
     If you encounter a problem, do not be alarmed, just click [here](https://discord.gg/44d5THq) to go to our support server!
       - You can't have problems, if you don't [invite](https://discordapp.com/oauth2/authorize?client_id=636296711937196057&scope=bot&permissions=8) her!
+- If you don't even have her in your server, you [**must**](https://discordapp.com/oauth2/authorize?client_id=636296711937196057&scope=bot&permissions=8) have her!

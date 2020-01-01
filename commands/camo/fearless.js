@@ -8,7 +8,7 @@ module.exports = class camoCommand extends Command {
             aliases: ['frl'],
             group: 'camo',
             memberName: 'fearless',
-            description: 'Shows the Fearless Camo',
+            description: 'Shows the T-62A\'s Fearless Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -18,9 +18,9 @@ module.exports = class camoCommand extends Command {
     run(message) {
 		const embed = new RichEmbed()
 		.setColor('RANDOM')
-	.setTitle('IS-6 Fearless')
-    .setImage('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/26494313/ebdb03ea3ab8bfbe9617135b2df177ef423a41df.jpg')
-    .setFooter('Rare Tank, Camo Comes With Tank')
+	.setTitle('T-62A')
+    .setImage('https://media-wbp.wgcdn.co/media/filer_public_thumbnails/filer_public/f2/c9/f2c91818-31bc-495d-9c30-cf8faeb85f17/t-62a-fearless-gunner.jpg__1000x625_q85_subsampling-2.jpg')
+    .setFooter('2 550')
         return message.embed(embed);
     }
 };

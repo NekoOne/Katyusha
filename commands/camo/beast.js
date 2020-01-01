@@ -4,11 +4,11 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'rebel',
-            aliases: ['rb'],
+            name: 'beast',
+            aliases: [],
             group: 'camo',
-            memberName: 'rebel',
-            description: 'Shows the Rebel Camo',
+            memberName: 'beast',
+            description: 'Shows the M48A1 Patton\'s Beast Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -18,9 +18,9 @@ module.exports = class camoCommand extends Command {
     run(message) {
 		const embed = new RichEmbed()
 		.setColor('RANDOM')
-	.setTitle('T110E5 Rebel')
-    .setImage('https://static-wbp-us.gcdn.co/dcont/1.23.2/fb/image/en-rebel.jpg')
-    .setFooter('Costs 2 840 Gold')
+	.setTitle('M48A1 Patton Beast')
+    .setImage('https://media.sketchfab.com/models/7e4f4f2999144f8a9cd5c08af603b471/thumbnails/6881e11ed4a74ba6a443703c58c39021/1920x1080.jpeg')
+    .setFooter('Costs 2 550 Gold')
         return message.embed(embed);
     }
 };

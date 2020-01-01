@@ -15,7 +15,7 @@
 - ~Maus 313~
 - ~Maus Legionary~
 - ~Grille 15 Troublemaker~
-- ~Grille 15 RA1DER ~
+- ~Grille 15 RA1DER~
 - Obj 140 Terror
 - T-62A Fearless
 - T-22 Medium Uncatchable

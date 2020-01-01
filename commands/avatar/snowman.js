@@ -18,9 +18,11 @@ module.exports = class avatarCommand extends Command {
     run(message) {
 		const embed = new RichEmbed()
 		.setColor('#D3D3D3')
-	.setTitle('Snowman')
+    .setTitle('Snowman')
+    .setDescription('Cannot Be Obtained')
     .setImage('https://media-wbp.wgcdn.co/media/filer_public/4b/f4/4bf4852c-0bca-473e-a66a-b282878f0802/snowman.png')
-    .setFooter('Update 5.6, Can No Longer Be Ubtained')
+    .setFooter('Update 5.6, 2019 New Year with Bonus Code FESTIVEBLITZ2020' )
+    
         return message.embed(embed);
     }
 };

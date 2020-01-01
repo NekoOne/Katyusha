@@ -4,11 +4,11 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'rebel',
-            aliases: ['rb'],
+            name: 'wild',
+            aliases: [],
             group: 'camo',
-            memberName: 'rebel',
-            description: 'Shows the Rebel Camo',
+            memberName: 'wild',
+            description: 'Shows the Leopard 1\'s Wild Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -18,9 +18,9 @@ module.exports = class camoCommand extends Command {
     run(message) {
 		const embed = new RichEmbed()
 		.setColor('RANDOM')
-	.setTitle('T110E5 Rebel')
-    .setImage('https://static-wbp-us.gcdn.co/dcont/1.23.2/fb/image/en-rebel.jpg')
-    .setFooter('Costs 2 840 Gold')
+	.setTitle('Leopard 1 Wild')
+    .setImage('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/26494313/52450202eb8d3ad2069e3abeb5479c1e2ded31b9.jpg')
+    .setFooter('Update 5.8; Costs 2 550 Gold')
         return message.embed(embed);
     }
 };

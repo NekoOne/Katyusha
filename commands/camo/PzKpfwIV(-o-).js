@@ -4,11 +4,11 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'rebel',
-            aliases: ['rb'],
+            name: '(-0-)',
+            aliases: ['pzivs'],
             group: 'camo',
-            memberName: 'rebel',
-            description: 'Shows the Rebel Camo',
+            memberName: '(-0-)',
+            description: 'Shows the T26E4 Pz. IV S\' (-0-) Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -18,9 +18,9 @@ module.exports = class camoCommand extends Command {
     run(message) {
 		const embed = new RichEmbed()
 		.setColor('RANDOM')
-	.setTitle('T110E5 Rebel')
-    .setImage('https://static-wbp-us.gcdn.co/dcont/1.23.2/fb/image/en-rebel.jpg')
-    .setFooter('Costs 2 840 Gold')
+	.setTitle('Panzer Kamfpanzerwagen IV Schmalturn (-0-)')
+    .setImage('https://i.ytimg.com/vi/-R2obbMH51w/maxresdefault.jpg')
+    .setFooter('Came out in Clan Wars: Revenge of the 5th, In Store, 2018 New Years Event')
         return message.embed(embed);
     }
 };

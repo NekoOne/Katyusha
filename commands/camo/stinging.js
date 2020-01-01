@@ -4,11 +4,11 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'rebel',
-            aliases: ['rb'],
+            name: 'stinging',
+            aliases: [],
             group: 'camo',
-            memberName: 'rebel',
-            description: 'Shows the Rebel Camo',
+            memberName: 'stinging',
+            description: 'Shows the Skorpion G\'s Stinging Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -18,9 +18,9 @@ module.exports = class camoCommand extends Command {
     run(message) {
 		const embed = new RichEmbed()
 		.setColor('RANDOM')
-	.setTitle('T110E5 Rebel')
-    .setImage('https://static-wbp-us.gcdn.co/dcont/1.23.2/fb/image/en-rebel.jpg')
-    .setFooter('Costs 2 840 Gold')
+	.setTitle('Skorpion G Stinging')
+    .setImage('https://static-ptl-us.gcdn.co/dcont/fb/image/rheinmetall_skorpion_fully_loaded.png')
+    .setFooter('Costs 1 590 Gold')
         return message.embed(embed);
     }
 };

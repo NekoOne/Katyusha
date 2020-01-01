@@ -7,7 +7,7 @@ const client = new CommandoClient({
 	owner: '228565874187960320',
 	invite: 'https://discord.gg/44d5THq',
 	unknownCommandResponse: false,
-	version: '0.11.1-alpha',
+	version: '0.12.0-alpha',
 });
 
 client.registry
@@ -43,7 +43,6 @@ const activities_list = [
 	"with Nonna",
 	"Sensha-dō",
 	"with My Code",
-	"in ${client.guilds.size} Guilds",
     ];
 
 client.on('error', console.error);

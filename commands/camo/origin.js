@@ -4,11 +4,11 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'rebel',
-            aliases: ['rb'],
+            name: 'origin',
+            aliases: [],
             group: 'camo',
-            memberName: 'rebel',
-            description: 'Shows the Rebel Camo',
+            memberName: 'origin',
+            description: 'Shows the T-54 Mod 1\'s Origin Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -18,9 +18,9 @@ module.exports = class camoCommand extends Command {
     run(message) {
 		const embed = new RichEmbed()
 		.setColor('RANDOM')
-	.setTitle('T110E5 Rebel')
-    .setImage('https://static-wbp-us.gcdn.co/dcont/1.23.2/fb/image/en-rebel.jpg')
-    .setFooter('Costs 2 840 Gold')
+	.setTitle('T-54 Mod 1 Origin')
+    .setImage('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/26494313/f83274052a3c33d9e1104c12eab451b7387190f7.jpg')
+    .setFooter('Costs 1 450 Gold')
         return message.embed(embed);
     }
 };

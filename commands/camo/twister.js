@@ -4,11 +4,11 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'rebel',
-            aliases: ['rb'],
+            name: 'twister',
+            aliases: [],
             group: 'camo',
-            memberName: 'rebel',
-            description: 'Shows the Rebel Camo',
+            memberName: 'twister',
+            description: 'Shows the FMC 50 t\'s Twister Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -17,10 +17,10 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
-	.setTitle('T110E5 Rebel')
-    .setImage('https://static-wbp-us.gcdn.co/dcont/1.23.2/fb/image/en-rebel.jpg')
-    .setFooter('Costs 2 840 Gold')
+		.setColor('RED')
+	.setTitle('FCM 50 t Twister')
+    .setImage('https://pbs.twimg.com/media/EDmiGjVXUAAu8pD.jpg')
+    .setFooter('Awarded for Compleating the Twister 2019 Operation Event')
         return message.embed(embed);
     }
 };

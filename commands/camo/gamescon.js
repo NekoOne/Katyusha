@@ -4,11 +4,11 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'rebel',
-            aliases: ['rb'],
+            name: 'gamescom',
+            aliases: ['gs'],
             group: 'camo',
-            memberName: 'rebel',
-            description: 'Shows the Rebel Camo',
+            memberName: 'gamescom',
+            description: 'Shows the Tiger 1\'s Gamescom Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -17,10 +17,10 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
-	.setTitle('T110E5 Rebel')
-    .setImage('https://static-wbp-us.gcdn.co/dcont/1.23.2/fb/image/en-rebel.jpg')
-    .setFooter('Costs 2 840 Gold')
+		.setColor('RED')
+	.setTitle('Tiger 1 Gamescon')
+    .setImage('http://rykoszet.info/wp-content/uploads/2016/08/tiger-gamescom-1.jpg')
+    .setFooter('Rewarded to Participants of the 2016 Gamescom')
         return message.embed(embed);
     }
 };

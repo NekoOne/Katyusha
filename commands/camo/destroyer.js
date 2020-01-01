@@ -20,7 +20,7 @@ module.exports = class camoCommand extends Command {
 		.setColor('RANDOM')
 	.setTitle('Foch Destroyer')
     .setImage('https://static-wbp-sg.wgcdn.co/dcont/1.28.0/fb/image/foch-destroyer.jpg')
-    .setFooter('Costs 4 ooo Gold')
+    .setFooter('Costs 2 840 Gold')
         return message.embed(embed);
     }
 };

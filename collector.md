@@ -204,7 +204,7 @@ Ke-Ni => 50
 
 FCM36Pak40 => 950
 
-UE 57 =>50
+~UE 57 =>50~
 
 ---
 # ~Tier II (15 Tanks)~

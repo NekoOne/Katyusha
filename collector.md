@@ -66,7 +66,7 @@ M4A2E4 => 2 350
 
 T67 => 250
 
-# _#_Soviet__
+## __Soviet__
 
 KV-220 T => 2 500
 
@@ -102,7 +102,7 @@ M3 Lee => 100
 
 T40 => 100
 
-Soviet
+## __Soviet__
 
 Valentine II => 1 500
 
@@ -207,7 +207,7 @@ FCM36Pak40 => 950
 UE 57 =>50
 
 ---
-# Tier II (15 Tanks)
+# ~Tier II (15 Tanks)~
 ## __American__
 
 T2 Light => 650

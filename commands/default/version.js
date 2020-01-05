@@ -16,6 +16,6 @@ module.exports = class versionCommand extends Command {
 	}
 
 	run(message){
-        return message.say('0.12.0-alpha')
+        return message.say('0.12.1-alpha')
     }
 };

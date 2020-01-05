@@ -210,40 +210,40 @@ FCM36Pak40 => 950
 # ~Tier II (15 Tanks)~
 ## __American__
 
-T2 Light => 650
+~T2 Light => 650~
 
-T1E6 => 750
+~T1E6 => 750~
 
-T7 Car => 650
+~T7 Car => 650~
 
-T2 Medium => 25
+~T2 Medium => 25~
 
-T18 => 25
+~T18 => 25~
 
 ## __Soviet__
 
-Tetrarch => 700
+~Tetrarch => 700~
 
-AT-1 => 25
+~AT-1 => 25~
 
 ## __German__
 
-Pz. 38H => 750
+~Pz. 38H => 750~
 
-Pz.Jäg. I => 25
+~Pz.Jäg. I => 25~
 
 ## __British__
 
-Cruiser I => 25
+~Cruiser I => 25~
 
-Light VIC => 750
+~Light VIC => 750~
 
-Medium II => 25
+~Medium II => 25~
 
-UC 2-pdr => 25
+~UC 2-pdr => 25~
 
 ## __French__
 
-D1 => 25
+~D1 => 25~
 
-FT AC => 25
+~FT AC => 25

@@ -4,10 +4,10 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: '50000',
-            aliases:['50k'],
-            group: 'avatar',
-            memberName: '50000',
+            name: 'reactor',
+            aliases:[],
+            group: 'attachment',
+            memberName: 'reactor',
             description: '6.0',
 
             ownerOnly: false,

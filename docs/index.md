@@ -1,3 +1,6 @@
+<head>
+  <link rel="icon"  type="image/png"    href="https://static.zerochan.net/Katyusha.%28GIRLS.und.PANZER%29.full.1397778.jpg">
+</head>
 # Neko One
 ---
   I love Anime and game like the world is going to end. Started coding CSS about 2 years ago and slowly started to like it. Begain to code a Discord in JS in 2019 for a game I've played for years.

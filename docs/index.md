@@ -1,7 +1,3 @@
-<head>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <link rel="icon"  type="image/png"    href="https://static.zerochan.net/Katyusha.%28GIRLS.und.PANZER%29.full.1397778.jpg">
-</head>
 
 # Neko One
 ---

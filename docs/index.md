@@ -1,3 +1,6 @@
+<head>
+  <link rel="icon"  type="image/png"    href="https://static.zerochan.net/Katyusha.%28GIRLS.und.PANZER%29.full.1397778.jpg">
+</head>
 
 # Neko One
 ---
@@ -11,3 +14,4 @@
 # Projects
 
 [Katyusha]()
+

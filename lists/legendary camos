@@ -1,10 +1,10 @@
-# **THIS LIST IS NOW COMPLETE**
 
 ### Legendary Camo To Do List
 
 
 **__Tier 10__**
 ---
+- VK 90.01 (P) Blade
 - ~M48 Patton Pit Bull~
 - ~M48 Beast~
 - ~T110E4~

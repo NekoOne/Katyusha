@@ -99,7 +99,7 @@ module.exports = class camoCommand extends Command {
 ```
 ---
 - ## Tanks are on the List as Well!
-  - ## Add Collector and Premium
+  - ## [Premium](https://github.com/NekoOne/Katyusha/blob/master/lists/premium.md) and [Collector](https://github.com/NekoOne/Katyusha/blob/master/lists/collector.md)
 ```js
 const { Command } = require('discord.js-commando');
 const { RichEmbed } = require('discord.js');

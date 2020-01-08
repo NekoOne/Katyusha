@@ -23,7 +23,8 @@ client.registry
 		['avatar', 'Shows the Mentioned Avatar'],
 		['gup', 'Are These GuP Commands :eyes:'],
 		['collecter', 'Hard to Obtain Tanks(Armor will ***NOT*** be displayed until tier 4)'],
-		['premium', 'Premium tank\'s Common Sell Price and Stats']
+		['premium', 'Premium tank\'s Common Sell Price and Stats'],
+		['garage', 'Shows the Past Official Garages'],
 	])
 	.registerDefaultGroups()
 	.registerDefaultCommands()

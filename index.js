@@ -25,6 +25,7 @@ client.registry
 		['collecter', 'Hard to Obtain Tanks(Armor will ***NOT*** be displayed until tier 4)'],
 		['premium', 'Premium tank\'s Common Sell Price and Stats'],
 		['garage', 'Shows the Past Official Garages'],
+		['archive', 'All Past Maps, Garages, Tanks, Ect. That Were Removed'],
 	])
 	.registerDefaultGroups()
 	.registerDefaultCommands()

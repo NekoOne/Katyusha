@@ -13,7 +13,7 @@
 - If you don't even have her in your server, you [**must**](https://discordapp.com/oauth2/authorize?client_id=636296711937196057&scope=bot&permissions=8) have her!
 ---
 # To Do
-- [ ] Legendary Camo
+- [x] Legendary Camo
 - [x] Maps
 - [ ] Badges
 - [ ] War Paints

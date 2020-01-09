@@ -8,7 +8,7 @@ module.exports = class camoCommand extends Command {
             aliases: ['pzivs'],
             group: 'camo',
             memberName: '(-0-)',
-            description: 'Shows the T26E4 Pz. IV S\' (-0-) Camo',
+            description: 'Shows the Pz. IV S\' (-0-) Camo',
             
             ownerOnly: false,
             guildOnly: true

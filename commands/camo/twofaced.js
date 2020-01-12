@@ -19,7 +19,7 @@ module.exports = class camoCommand extends Command {
 		const embed = new RichEmbed()
 		.setColor('BLACK')
 	.setTitle('Dracula Two-Faced')
-    .setImage('https://imgur.com/HZgmqs7')
+    .setImage('https://i.imgur.com/HZgmqs7.png')
     .setFooter('Could of Dropped in a Dracula Crate During 2019 Halloween Event')
         return message.embed(embed);
     }

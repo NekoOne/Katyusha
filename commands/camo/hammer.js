@@ -4,11 +4,11 @@ const { RichEmbed } = require('discord.js');
 module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'raven',
+            name: 'hammer',
             aliases: [],
-            group: 'attachment',
-            memberName: 'raven',
-            description: 'Shows the Helsing\'s Raven Camo',
+            group: 'camo',
+            memberName: 'hammer',
+            description: 'Shows the FV215B 183\'s Hammer Camo',
             
             ownerOnly: false,
             guildOnly: true
@@ -17,10 +17,10 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('BLACK')
-	.setTitle('Helsing Raven')
-    .setImage('https://i.imgur.com/NIeCeIr.png')
-    .setFooter('Could of Dropped in a Helsing Crate During 2019 Halloween Event')
+		.setColor('RANDOM')
+	.setTitle('FV215B 183 Hammer')
+    .setImage('https://www.dom1n.com/wp-content/grand-media/image/n8g8JEQ376g.jpg')
+    .setFooter('Costs 2 250 Gold')
         return message.embed(embed);
     }
 };

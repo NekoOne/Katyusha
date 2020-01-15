@@ -20,3 +20,11 @@
 - [ ] Premium Tanks (0/109)
 - [ ] Collector Tanks (16/83)
 - [ ] Attachments
+---
+# Feature Updates
+- Found the Legendary Camo thumbnails and will add that in the thumbnail part of the embed
+  - Also Might Change all the Display Photos to what is seen when the camo is equiped from the in-game thumbnail
+- Also found all of the badges in-game. I uploaded them to Imgur and will add them very soon
+- Also Also found the in-game thumbnails for all the nations War Paints. I need to take screen-shots of all of them equiped on a tank before actually adding them. 
+- **Gotta add the changelog for update 6.7**
+  - **and the changelog for update 6.8**

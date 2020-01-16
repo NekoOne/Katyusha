@@ -4,17 +4,17 @@ const { RichEmbed } = require('discord.js')
 module.exports = class AvatarCommand extends Command {
     constructor(client) {
         super(client, {
-            name:"6.7",
+            name:"6.8",
             group: 'fun',
-            memberName: '6.7',
+            memberName: '6.8',
             description: 'Update 6.7 Patch Notes',
         })
     }
     run(msg, {user}){
         let embed = new RichEmbed()
-        .setTitle('Update 6.7')
+        .setTitle('Update 6.8')
         .setURL('https://blitzhangar.com/en/update/6-7-preview')
-        .setDescription('2 New Tanks: IX T92E1 and X Sheridan')
+        .setDescription('4 New Tanks: American IX T92E1 and X Sheridan; British VIII Centurion Mk.1 Defender; Russian TD')
         .addBlankField()
         .addField('New Ammo Type: 152 mm MGM 51A1E2 Guided Missle with 340 Penetration')
         .addBlankField()

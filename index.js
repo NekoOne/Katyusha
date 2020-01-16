@@ -18,6 +18,7 @@ client.registry
 		['strats', 'Strats'],
 		['maps', 'Maps'],
 		['camo', 'Shows Tank\'s Legendary Camo'],
+		['warpaint', 'Show\'s a Tank Nation\'s Default Camo'],
 		['attachment', 'Shows Tank Attachments and Price'],
 		['badge', 'Shows a Mentioned badge'],
 		['avatar', 'Shows the Mentioned Avatar'],

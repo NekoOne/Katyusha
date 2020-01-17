@@ -7,7 +7,7 @@ module.exports = class BlacklistUserCommand extends Command {
 			aliases: ['blacklist'],
 			group: 'default',
 			memberName: 'blacklist-user',
-			description: 'Prohibit a user from using commando',
+			description: 'Bans the Mentioned User from Using the Bot',
 			hidden: true,
 			throttling: {
 				usages: 2,
@@ -21,6 +21,10 @@ module.exports = class BlacklistUserCommand extends Command {
 					key: 'user',
 					prompt: 'whom do you want to blacklist?\n',
 					type: 'user'
+				},
+				{
+					key: 'option',
+					prompt: ['Are You Sure You Want to Add ${user.tag} to the Blacklist?']
 				}
 			]
 		});

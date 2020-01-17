@@ -9,6 +9,8 @@ module.exports = class BlacklistUserCommand extends Command {
 			memberName: 'blacklist-user',
 			description: 'Bans the Mentioned User from Using the Bot',
 			hidden: true,
+			clientpermissions:['ADMINISTRATOR'],
+			userPermissions:['BAN_MEMBERS'],
 			throttling: {
 				usages: 2,
 				duration: 3

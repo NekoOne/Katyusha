@@ -8,9 +8,11 @@ module.exports = class WhitelistUserCommand extends Command {
 			group: 'util',
 			memberName: 'whitelist-user',
 			description: 'Remove a user from the blacklist',
-			ownerOnly: true,
+			ownerOnly: false,
 			hidden: true,
 			guildOnly: true,
+			clientpermissions:['ADMINISTRATOR'],
+			userpermissions:['BAN_MEMBERS'],
 			throttling: {
 				usages: 2,
 				duration: 3

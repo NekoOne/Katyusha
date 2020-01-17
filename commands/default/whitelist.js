@@ -25,6 +25,7 @@ module.exports = class WhitelistUserCommand extends Command {
 				{
 					key: 'option',
 					prompt: ['Are You Sure You Want to Whitelist ${user.tag}']
+				}
 			]
 			
 		});

@@ -27,39 +27,21 @@
 
   </head>
   <body>
-  <!-- Navbar -->
+  <!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7851a9;">
-  <a class="navbar-brand" href="#">
-      <img src="/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
-    Neko Studios
-      </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/Katyusha/Commands">Commands<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="/mods">Invite</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
-      </li>
-    </ul>
-  </div>
+   <ul class="navbar-nav">
+    <li><a href="#section1">Maps</a></li>
+    <li><a href="#section2">Legendary Camo</a></li>
 </nav>
+
+</div>
 <div class="jumbotron">
   <h1>Commands</h1>
   <p>All of Katyusha's Commands</p>
 </div>
-<div class="mx-auto"; style="width: 200px; margin-top: 20px"><h4>Maps</h4>
-</div>
-<table style="width:100%";
 <div class="progress">
   <div class="progress-bar bg-success" style="width:49.35%">
     Commands Done
@@ -71,7 +53,9 @@
     Commands not in Bot
   </div>
 </div>
-
+<table style="width:100%";>
+<div id="section1"; class="mx-auto"; style="width: 200px; margin-top: 20px"><h4>Maps</h4>
+</div>
 	<tr>
     	<th>Command</th>
     </tr>
@@ -159,9 +143,10 @@
        <td>Yamato Harbor</td>
     </tr>
     </table>
+    
     <!--End Maps-->
     
-    <div class="mx-auto" style="width:200px; margin-top: 20px;"><h4>Legendary Camo</h4>
+    <div id="section2" class="mx-auto" style="width:200px; margin-top: 20px;"><h4>Legendary Camo</h4>
     </div>
     <table style="width:100%">
 <tr>

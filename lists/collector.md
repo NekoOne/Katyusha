@@ -86,9 +86,9 @@ Sherman V => 250
 
 ## __Japanese__
 
-Pz. IV Anko SP => 1 200
+Pz. IV Ankou SP => 1 200
 
-Hybrid Nation
+## __Hybrid Nation__
 
 Scavenger => 250
 

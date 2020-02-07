@@ -5,7 +5,7 @@ module.exports = class camoCommand extends Command {
     constructor(client) {
         super(client, {
             name: 'reliantcover',
-            aliases: ['sc'],
+            aliases: ['reliant'],
             group: 'attachment',
             memberName: 'reliantcover',
             description: 'Shows the Löwe\'s Reliant Cover Camo',

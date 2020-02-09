@@ -7,7 +7,7 @@ const client = new CommandoClient({
 	owner: '228565874187960320',
 	invite: 'https://discord.gg/44d5THq',
 	unknownCommandResponse: false,
-	version: '0.12.1-alpha',
+	version: '0.13.0-alpha',
 });
 
 client.registry

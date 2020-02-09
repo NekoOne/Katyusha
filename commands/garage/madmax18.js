@@ -19,8 +19,7 @@ module.exports = class camoCommand extends Command {
 		const embed = new RichEmbed()
 		.setColor('BLACK')
 	.setTitle('2018 Mad Max Themed Garage')
-  .setUrl('https://www.artstation.com/artwork/Jll9Lv')
-    .setImage('https://cdna.artstation.com/p/assets/images/images/013/475/570/large/eugene-chistiy-madmax-screenshot-6.jpg?1539768491')
+    .setImage('https://media.giphy.com/media/dYmdRMlm2pAl0FwP4e/giphy.gif')
     .setFooter()
         return message.embed(embed);
     }

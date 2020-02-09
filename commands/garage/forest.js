@@ -1,14 +1,14 @@
 const { Command } = require('discord.js-commando');
 const { RichEmbed } = require('discord.js');
 
-module.exports = class camoCommand extends Command {
+module.exports = class garageCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'premium',
+            name: 'forest',
             aliases:[],
             group: 'garage',
-            memberName: 'premium',
-            description: 'The New Premium Garage',
+            memberName: 'forest',
+            description: '2019 Forest Garage',
 
             ownerOnly: false,
             guildOnly: true
@@ -17,9 +17,9 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('#DAA520')
-	.setTitle('Premium Garage')
-    .setImage('https://media.giphy.com/media/l4ocB7NAGvjg1IOJOK/giphy.gif')
+		.setColor('GREEN')
+	.setTitle('2019 Forest Garage')
+    .setImage('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/26494313/15829602a83b1a6df2b49b40ca146c2e167bc039.jpg')
     .setFooter()
         return message.embed(embed);
     }

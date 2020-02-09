@@ -17,7 +17,8 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
+        .setColor('RANDOM')
+    .setThumbnail('https://i.imgur.com/InJFvBz.png')
 	.setTitle('VK 90.01 (P) Blade')
     .setImage('https://media-wbp.wgcdn.co/media/filer_public/images/vk-90-01_event-browser-001.jpg')
     .setFooter('Obtained by Completing the Final Stage in the Holiday Shop')

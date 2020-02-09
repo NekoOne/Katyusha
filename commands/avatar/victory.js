@@ -1,13 +1,13 @@
 const { Command } = require('discord.js-commando');
 const { RichEmbed } = require('discord.js');
 
-module.exports = class camoCommand extends Command {
+module.exports = class avatarCommand extends Command {
     constructor(client) {
         super(client, {
-            name: '50000',
-            aliases:['50k'],
+            name: 'victory',
+            aliases:[],
             group: 'avatar',
-            memberName: '50000',
+            memberName: 'victory',
             description: '6.0',
 
             ownerOnly: false,
@@ -18,9 +18,9 @@ module.exports = class camoCommand extends Command {
     run(message) {
 		const embed = new RichEmbed()
 		.setColor('#DAA520')
-	.setTitle('50,000 Victories')
-    .setImage('https://media-wbp.wgcdn.co/media/filer_public/images/avatar-victories-50000.png')
-    .setFooter('Update 6.0, Get 50,000 Victories')
+	.setTitle('Victory Avatars')
+    .setImage('https://i.imgur.com/HfBPAf0.png')
+    .setFooter('Update 6.0, Get 50-50,000 Victories')
         return message.embed(embed);
     }
 };

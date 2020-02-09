@@ -17,7 +17,8 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
+        .setColor('RANDOM')
+    .setThumbnail('https://i.imgur.com/ddwIiCi.png')
 	.setTitle('AMX CDC Liberty')
     .setImage('https://cdn.wikiwiki.jp/to/w/wotblitz/AMX%20CDC/::ref/AMXCDC_1.jpg?rev=2db9de95581f5edb04bc7b3e2fa5b740')
     .setFooter('Costs 1 590 Gold')

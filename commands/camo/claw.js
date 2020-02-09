@@ -17,7 +17,8 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
+        .setColor('RANDOM')
+    .setThumbnail('https://i.imgur.com/DVdjMuQ.png')
 	.setTitle('SU-76I Ice-Claw')
     .setImage('https://i.ytimg.com/vi/7iPeiaByezY/hqdefault.jpg')
     .setFooter('Costs 220 Gold, Was in the April Reserves Event')

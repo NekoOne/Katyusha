@@ -17,7 +17,8 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
+        .setColor('RANDOM')
+    .setThumbnail('https://i.imgur.com/dBEG4Zz.png')
 	.setTitle('T-22 Medium Uncatchable')
     .setImage('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/26494313/8932aa7a25cb1604af851c1c0f76336559df9a00.jpg')
     .setFooter('Event Camo from Cristmas of 2018, Special Offer Only')

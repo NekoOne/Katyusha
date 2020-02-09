@@ -15,7 +15,10 @@
     <link rel="icon" href="favicon.ico" type="favicon"/>
     <link rel="shortcut icon" href="favicon.ico" type="favicon"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <title>Katyusha</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -31,7 +34,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7851a9;">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #7851a9;">
    <ul class="navbar-nav">
     <li><a href="#section1">Maps</a></li>
     <li><a href="#section2">Legendary Camo</a></li>
@@ -42,117 +45,157 @@
   <h1>Commands</h1>
   <p>All of Katyusha's Commands</p>
 </div>
+<!-- Progress Bar -->
 <div class="progress">
-  <div class="progress-bar bg-success" style="width:49.35%">
+  <div class="progress-bar bg-success" style="width:51.12%"><a data-toggle="tooltip" title="Finished Commands in Bot">
     Commands Done
-  </div>
-  <div class="progress-bar bg-warning" style="width:37.39%">
+  </a></div>
+  <div class="progress-bar bg-warning" style="width:44.85"><a data-toggle="tooltip" title="Commands in Bot, But Not on Website">
     Commands Needed
   </div>
-  <div class="progress-bar bg-danger" style="width: 0.434782608696%">
+  <div class="progress-bar bg-danger" style="width: 1.35"><a data-toggle="tooltip" title="Commands not in Bot">
     Commands not in Bot
   </div>
 </div>
-<table style="width:100%";>
+<br>
+
+<input class="form-control" id="myInput" type="text" placeholder="Search in Maps...">
+<table class="table table-bordered table-hover table-striped" style="width:100%";>
 <div id="section1"; class="mx-auto"; style="width: 200px; margin-top: 20px"><h4>Maps</h4>
 </div>
-	<tr>
-    	<th>Command</th>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Command</th>
+		</tr>
+	</thead>
+<tbody id="myTable">
+    <tr>
+	<td>Alpensadt</td>
+	<td>alpensadt</td>
+    <tr>
+	   <td>Black Goldville</td>
+	   <td>blackgoldville</td>
+    </tr>
+        <tr>
+	   <td>Canal</td>
+	   <td>canal</td>
+    </tr>
+        <tr>
+	   <td>Canyon</td>
+	   <td>canyon</td>
+    </tr>
+        <tr>
+	   <td>Castilla</td>
+	   <td>castilla</td>
+    </tr>
+        <tr>
+	   <td>Copperfield</td>
+	   <td>copperfield</td>
+    </tr>
+        <tr>
+	   <td>Deadrail</td>
+	   <td>deadrail</td>
+    </tr>
+        <tr>
+	   <td>Desert Sands</td>
+	   <td>desertsands</td>
+    </tr>
+        <tr>
+	   <td>Dynastys Pearl</td>
+	   <td>dynastyspearl</td>
+    </tr>
+        <tr>
+	   <td>Falls Creek</td>
+	   <td>fallscreek</td>
+    </tr>
+        <tr>
+	   <td>Faust</td>
+	   <td>faust</td>
+    </tr>
+        <tr>
+	   <td>Fort Dispair</td>
+	   <td>fortdispair</td>
+    </tr>
+        <tr class="table-success">
+	   <td>Unamed Greek Map<span class="badge badge-success"> New </span></td>
+	   <td>greek</td>
+    </tr>
+        <tr>
+	   <td>Himmelsdorf</td>
+	   <td>himmelsdorf</td>
+    </tr>
+        <tr>
+	   <td>Lost Temple</td>
+	   <td>losttemple</td>
+    </tr>
+        <tr>
+	   <td>Mayan Ruins</td>
+	   <td>mayanruins</td>
+    </tr>
+        <tr>
+	   <td>Middlesburg</td>
+	   <td>middlesburg</td>
+    </tr>
+        <tr>
+	   <td>Mines</td>
+	   <td>mines</td>
+    </tr>
+        <tr>
+	   <td>Mirage</td>
+	   <td>mirage</td>
+    </tr>
+        <tr>
+	   <td>Naval Frontier</td>
+	   <td>navalfrontier</td>
+    </tr>
+        <tr>
+	   <td>Normandy</td>
+	   <td>normandy</td>
+    </tr>
+        <tr>
+	   <td>Oasis Palms</td>
+	   <td>oasispalms</td>
+    </tr>
+        <tr>
+	   <td>Portbay</td>
+	   <td>portbay</td>
+    </tr>
+        <tr>
+	   <td>Rockfield</td>
+	   <td>rockfield</td>
+    </tr>
+        <tr>
+	   <td>Vineyards</td>
+	   <td>vineyards</td>
+    </tr>
+        <tr class="table-danger">
+	   <td>Unamed Winter Map<span class="badge badge-danger">No Info</span></td>
+	   <td><span class="badge badge-danger">Null</span></td>
     </tr>
     <tr>
-    <td>Alpensadt</td>
-    <tr>
-       <td>Black Goldville</td>
-    </tr>
-        <tr>
-       <td>Canal</td>
-    </tr>
-        <tr>
-       <td>Canyon</td>
-    </tr>
-        <tr>
-       <td>Castilla</td>
-    </tr>
-        <tr>
-       <td>Copperfield</td>
-    </tr>
-        <tr>
-       <td>Deadrail</td>
-    </tr>
-        <tr>
-       <td>Desert Sands</td>
-    </tr>
-        <tr>
-       <td>Dynastys Pearl</td>
-    </tr>
-        <tr>
-       <td>Falls Creek</td>
-    </tr>
-        <tr>
-       <td>Faust</td>
-    </tr>
-        <tr>
-       <td>Fort Dispair</td>
-    </tr>
-        <tr>
-       <td>Unamed Greek Map<span class="badge badge-success"> New </span></td>
-    </tr>
-        <tr>
-       <td>Himmelsdorf</td>
-    </tr>
-        <tr>
-       <td>Lost Temple</td>
-    </tr>
-        <tr>
-       <td>Mayan Ruins</td>
-    </tr>
-        <tr>
-       <td>Middlesburg</td>
-    </tr>
-        <tr>
-       <td>Mines</td>
-    </tr>
-        <tr>
-       <td>Mirage</td>
-    </tr>
-        <tr>
-       <td>Naval Frontier</td>
-    </tr>
-        <tr>
-       <td>Normandy</td>
-    </tr>
-        <tr>
-       <td>Oasis Palms</td>
-    </tr>
-        <tr>
-       <td>Portbay</td>
-    </tr>
-        <tr>
-       <td>Rockfield</td>
-    </tr>
-        <tr>
-       <td>Vineyards</td>
-    </tr>
-        <tr>
-       <td>Unamed Winter Map<span class="badge badge-danger">No Info</span></td>
+	   <td>Winter Molinovka</td>
+	   <td>wintermolinovka</td>
     </tr>
     <tr>
-       <td>Winter Molinovka</td>
-    </tr>
-    <tr>
-       <td>Yamato Harbor</td>
-    </tr>
+	   <td>Yamato Harbor</td>
+	   <td>yamatoharbor</td>
+	</tr>
+	</tbody>
     </table>
     
-    <!--End Maps-->
-    
-    <div id="section2" class="mx-auto" style="width:200px; margin-top: 20px;"><h4>Legendary Camo</h4>
-    </div>
-    <table style="width:100%">
-<tr>
- <th>Name</th>
- <th>Command</th>
- </tr>
+	<!--End Maps-->
+	
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+		<table class="table table-bordered table-hover table-striped" style="width:100%">
+</div>
+<thead>
+	<tr>
+ 		<th>Name</th>
+ 		<th>Command</th>
+	 </tr>
+</thead>
+<tbody id="myTable">
 <tr>
  <td>E25 #1	</td>
  <td>1</td>
@@ -186,11 +229,11 @@
 	<td>berlin; bl</td>
 </tr>
 <tr>
-	<td>IS-2 (1945) Berlin</td>
+	<td>IS-2 1945 Berlin</td>
 	<td>berlin2; bl2</td>
 </tr>
 <tr>
-	<td>VK 90.01 (P) Blade<span class="badge badge-success">New</span></td>
+	<td>VK 90.01 P Blade</td>
 	<td>blade</td>
 </tr>
 <tr>
@@ -214,7 +257,7 @@
 	<td>claw; ic</td>
 </tr>
 <tr>
-	<td>T110E4 Combat Star<span class="badge badge-success">New</span></td>
+	<td>T110E4 Combat Star></td>
 	<td>combatstar</td>
 </tr>
 <tr>
@@ -353,6 +396,10 @@
 	<td>0-47 Phoenix</td>
 	<td>phoenix; pnx</td>
 </tr>
+<tr class="table-danger">
+	<td>Chimera Phantom</td>
+	<td><span class="badge badge-info">Command not Added</span></td>
+</tr>
 <tr>
 	<td>M48A1 Patton Pit Bull</td>
 	<td>pitbull</td>
@@ -397,8 +444,9 @@
 	<td>Chieftain MK.6 Royal</td>
 	<td>royal; ry</td>
 </tr>
+<tr class="table-danger">
 	<td>WZ-111 5A Serpent</td>
-	<td><span class="badge badge-danger">Command Not Added</span></td>
+	<td><span class="badge badge-info">Command Not Added</span></td>
 </tr>
 <tr>
 	<td>Type 2 Chi-Nu Kai Shinobi</td>
@@ -407,6 +455,10 @@
 <tr>
 	<td>M4A3E8 Shrieking</td>
 	<td>shrieking</td>
+</tr>
+<tr class="table-danger">
+	<td>Sheridan Sidewinder</td>
+	<td><span class="badge badge-info">Command not Added</span></td>
 </tr>
 <tr>
 	<td>IS-4 Skilled</td>
@@ -484,8 +536,21 @@
 	<td>FCM 50 t Zizou</td>
 	<td>zizou</td>
 </tr>
+</tbody>
+</table>
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script>
+		$(document).ready(function(){
+		  $("#myInput").on("keyup", function() {
+			var value = $(this).val().toLowerCase();
+			$("#myTable tr").filter(function() {
+			  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+			});
+		  });
+		});
+	</script>
+		
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

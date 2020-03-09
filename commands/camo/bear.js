@@ -17,7 +17,8 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
+        .setColor('RANDOM')
+    .setThumbnail('https://i.imgur.com/9NqzNHu.png')
 	.setTitle('IS-3 Bear')
     .setImage('https://pbs.twimg.com/media/DR89L7nWAAEpo3Z.jpg')
     .setFooter('1 590')

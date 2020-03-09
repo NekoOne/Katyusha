@@ -1,13 +1,13 @@
 const { Command } = require('discord.js-commando');
 const { RichEmbed } = require('discord.js');
 
-module.exports = class camoCommand extends Command {
+module.exports = class avatarCommand extends Command {
     constructor(client) {
         super(client, {
-            name: '2500',
-            aliases:['25k'],
+            name: 'ultimatedestroyer',
+            aliases:['ud'],
             group: 'avatar',
-            memberName: '2500',
+            memberName: 'ultimatedestroyer',
             description: '6.0',
 
             ownerOnly: false,
@@ -17,10 +17,10 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('#551A8B')
-	.setTitle('2,500 Victories')
-    .setImage('https://media-wbp.wgcdn.co/media/filer_public/images/avatar-victories-2500.png')
-    .setFooter('Update 6.0, Get 2,500 Victories')
+		.setColor('#ffd700')
+	.setTitle('Ultimate Destroyer')
+    .setImage('https://i.imgur.com/pXcAJFO.png')
+    .setFooter('Update 6.0, Get 1, 2, 3, 5, 7, 10, or 15 Raseiniai Heroes\' Medal')
         return message.embed(embed);
     }
 };

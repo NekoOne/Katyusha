@@ -17,7 +17,8 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
+        .setColor('RANDOM')
+    .setThumbnail('https://i.imgur.com/cqSoNJf.png')
 	.setTitle('Grille 15 Trouble Maker')
     .setImage('https://media.wotblitz.com/media/filer_public/33/af/33afcfcc-a51d-45d1-b239-0fb60edf06b7/grill-15-skin_troublemaker.jpg')
     .setFooter('Costs 2 840 Gold')

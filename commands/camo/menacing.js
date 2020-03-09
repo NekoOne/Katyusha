@@ -17,7 +17,8 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
+        .setColor('RANDOM')
+    .setThumbnail('https://i.imgur.com/pV8fB09.png')
     .setTitle('KV-2 Menacing')
     .setImage('https://cdn.wikiwiki.jp/to/w/wotblitz/uploader/::ref/KV-2%20Menacing_legend.jpg?rev=22d7120a1a3511a87589c7e4e190fa92&t=20180520091821')
     .setFooter('Costs 650 Gold')

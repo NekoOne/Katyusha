@@ -17,7 +17,8 @@ module.exports = class camoCommand extends Command {
 
     run(message) {
 		const embed = new RichEmbed()
-		.setColor('RANDOM')
+        .setColor('RANDOM')
+    .setThumbnail('https://i.imgur.com/rHCQXVl.png')
 	.setTitle('Foch Destroyer')
     .setImage('https://static-wbp-sg.wgcdn.co/dcont/1.28.0/fb/image/foch-destroyer.jpg')
     .setFooter('Costs 2 840 Gold')
